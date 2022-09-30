@@ -24,5 +24,5 @@ printf("%s\n", argv[count]);
 count++;
 }
 }
-return(0);
+return (0);
 }
