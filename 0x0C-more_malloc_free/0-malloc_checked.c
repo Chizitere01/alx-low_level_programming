@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - alloctes memory using malloc
+ * malloc_checked - allocates memory using malloc
  * @b: memory to allocate
  *
  * Return: pointer to allocated memory or normal process termination if error
@@ -13,6 +13,6 @@ void *malloc_checked(unsigned int b)
 
 	p = malloc(b);
 	if (p == NULL)
-		exit(98)
+		exit(98);
 	return (p);
 }
